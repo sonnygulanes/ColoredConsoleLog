@@ -3,7 +3,7 @@ ColoredConsoleLog
 
 Colored Javascript Console Log
 
-Use: Add Log.min.js to your website and create a variable named Log <script>var Log = Object.create(Log.prototype);</script>
+Use: Add Log.min.js to your website and create a variable named Log "var Log = Object.create(Log.prototype);"
 
 		<!doctype html>
 		<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
