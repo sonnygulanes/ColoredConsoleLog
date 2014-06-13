@@ -15,13 +15,14 @@ Use: Add Log.min.js to your website and create a variable named Log "var Log = O
 				<script>var Log = Object.create(Log.prototype);</script>
 			</head>
 			<body>
+			
 		<script>
-
 		Log.e("error");
 		Log.d("debug");
 		Log.w("warning");
 		Log.v("verbose");
 		Log.i("info");
 		</script>
+		
 			</body>
 		</html>
