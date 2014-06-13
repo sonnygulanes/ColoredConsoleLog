@@ -12,7 +12,19 @@ Use: Add Log.min.js to your website and create a variable named Log "var Log = O
 				<title>Colored Console Log</title>
 
 				<script src="Log.min.js" type="text/javascript"></script>
-				<script>var Log = Object.create(Log.prototype);</script>
+				<script>var Log = Object.create(Log.prototype);
+				//Log.disableInfo();
+				//Log.style.value = ['color:WHITE; background:RED;','color:#ff1b50; background:WHITE; font-style: italic;','color:BLUE; background:WHITE; font-weight:bold;','color:GREEN; background:WHITE; font-weight:bold;','color:BLACK; background:WHITE; font-weight:bold;']
+				//Log.style.value[0] = 'color:WHITE; background:YELLOW; font-style:underline; font-weight:bold;';
+				
+				/*
+				0 - error
+				1 - warming
+				2 - debug
+				3 - info
+				4 - verbose
+				*/
+				</script>
 			</head>
 			<body>
 			
