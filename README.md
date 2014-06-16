@@ -20,9 +20,9 @@ Use: Add Log.min.js to your website and create a variable named Log "var Log = O
 				/*
 				Log.style.value[0] - error
 				Log.style.value[1] - warning
-				Log.style.value[2]  - debug
-				Log.style.value[3]  - info
-				Log.style.value[4]  - verbose
+				Log.style.value[2] - debug
+				Log.style.value[3] - info
+				Log.style.value[4] - verbose
 				*/
 				</script>
 			</head>
